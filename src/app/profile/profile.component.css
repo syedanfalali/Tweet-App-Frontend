@@ -1,0 +1,19 @@
+.gradient-custom {
+    background: #08bdeb;
+    background: -webkit-linear-gradient(to right bottom, rgb(36, 233, 240), rgb(16, 206, 180));
+    background: linear-gradient(to right bottom, rgb(18, 223, 250), rgb(3, 197, 204))
+  }
+
+  .align-section{
+      position: absolute;    
+     width: 100%;
+  }
+  .card {
+    background: #222;
+    border: 1px solid #dd2476;
+    color: rgba(250, 250, 250, 0.8);
+    margin-bottom: 2rem;
+  }
+  body {
+    background: #111 !important;
+  }
