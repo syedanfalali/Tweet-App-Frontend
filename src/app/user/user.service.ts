@@ -13,7 +13,7 @@ export class UserService{
     allUsers = new Subject<ViewUser[]>();
 
     getUsers(userId: string){
-        this.http.get<ViewUser>('https://comtweetapp20220922161641.azurewebsites.net/v1.0/tweets/user/search/'+userId).subscribe((user) => {
+        this.http.get<ViewUser>('https://comtweetapp20220922161641.azurewebsites.net/api/v1.0/tweets/user/search/'+userId).subscribe((user) => {
             this.userDetail.next(user);
         });
     }
